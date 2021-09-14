@@ -65,7 +65,7 @@ font-weight: bold;
   
 }
 .single-product:hover {
-  box-shadow: 4px 4px 7px gray;
+  box-shadow: 6px 6px 9px grey;
   border-radius: 10px;
   border: 1px solid cyan;
   height: 500px;
