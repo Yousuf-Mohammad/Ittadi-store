@@ -18,27 +18,43 @@ font-weight: bold;
 
 .search-field {
   border: none;
-  border-radius: 50px;
+  border-radius: 5px;
   padding: 5px;
   outline: none;
+
+  
+
 }
 .search-field:hover {
   outline: none;
   border: none;
 }
 .search-box {
-  border: 1px solid rgb(3, 118, 211);
+
   width: 281px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
   margin-bottom: 50px;
   border-right: none;
+  display: flex;
+
+}
+#input-field{
+border:3px solid rgb(66, 107, 160);
 }
 .search-button {
   padding: 10px 20px;
-  border-radius: 25px;
-  margin-left: 25px;
+  border-radius: 5px;
+  margin-left: 5px;
+  background-color: rgb(66, 107, 160);
+  border: 1px solid black;
+  color: white;
+  
+}
+
+.search-button:hover{
+  box-shadow: 3px 3px 6px grey;
 }
 #all-products {
   display: grid;
@@ -67,7 +83,7 @@ font-weight: bold;
 .single-product:hover {
   box-shadow: 6px 6px 9px grey;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgb(66, 107, 160);
   height: 500px;
 }
 .product-image {
